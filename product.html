@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <div class="container">
+        <div class="prod">
+            <div class="gallery">
+                <img src="image1.png" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>Men's Polo </h1>
+                <h2>₹1099.99</h2>
+                <h3>30% OFF</h3>
+                <p>Wronged is an Indian manufacture of jeans and other clothing items, particularly workwear.</p>
+                <form>
+                    <div class="sizeSelect">
+                        <p>Size</p>
+                        <label for="small">
+                            <input type="radio" name="size" id="small">
+                            <span>S</span>
+                        </label>
+                        <label for="medium">
+                            <input type="radio" name="size" id="medium">
+                            <span>M</span>
+                        </label>
+                        <label for="large">
+                            <input type="radio" name="size" id="large">
+                            <span>L</span>
+                        </label>
+                        <label for="extraLarge">
+                            <input type="radio" name="size" id="extraLarge">
+                            <span>XL</span>
+                        </label>
+                        <label for="xxLarge">
+                            <input type="radio" name="size" id="xxLarge">
+                            <span>XXL</span>
+                        </label>
+                    </div>
+
+                    <div class="colorSelect">
+                        <p>Color</p>
+                        <label for="red">
+                            <input type="radio" name="color" id="red">
+                            <span class="color1"></span>
+                        </label>
+                        <label for="green">
+                            <input type="radio" name="color" id="green">
+                            <span class="color2"></span>
+                        </label>
+                        <label for="navyBlue">
+                            <input type="radio" name="color" id="navyBlue">
+                            <span class="color3"></span>
+                        </label>
+                        <label for="grey">
+                            <input type="radio" name="color" id="grey">
+                            <span class="color4"></span>
+                        </label>
+                    </div>
+
+                    <div class="qtySelect">
+                        <p>Quantity</p>
+                        <input type="number" value="1">
+                    </div>
+
+                    <button id="now">Buy Now <i class="fa-solid fa-bag-shopping"></i></button>
+                    <button id="cart">Add To Cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="product.js"></script>
+</body>
+</html>
